@@ -1,84 +1,139 @@
-// settings.json
-
-//Download extensions
-// Prettier - Code formatter
-// Material Icon Theme
-// Ayu
-// ESLint
-
 {
-  "breadcrumbs.enabled": false,
-  "editor.renderWhitespace": "none",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  // "editor.fontFamily": "\"JetBrainsMono Nerd Font\"",
+  "editor.fontFamily": "'STACKr Code', 'Fira Code', Consolas",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.linting.pylintEnabled": false,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ff652f",
+    "editorBracketPairGuide.background1": "#ff662f36",
+    "editorBracketHighlight.foreground2": "#9FBF45",
+    "editorBracketPairGuide.background2": "#9FBF4536",
+    "editorBracketHighlight.foreground3": "#429ED6",
+    "editorBracketPairGuide.background3": "#429ED636",
+    "editorBracketHighlight.foreground4": "#ff4ca3",
+    "editorBracketPairGuide.background4": "#ff4ca336"
+  },
+  "editor.minimap.size": "fit",
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "codeSTACKr Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "vue": "html",
+    "blade": "html",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  "debug.toolBarLocation": "docked",
+  "explorer.confirmDragAndDrop": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontSize": 16,
-  "diffEditor.ignoreTrimWhitespace": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "ejs": "html"
-  },
-  "terminal.integrated.env.windows": {},
-  "emmet.excludeLanguages": ["markdown"],
-  "[json]": {
-    "editor.quickSuggestions": {
-      "strings": true
-    },
-    "editor.suggest.insertMode": "replace",
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.linkedEditing": true,
-  "workbench.editor.decorations.colors": true,
-  "workbench.editor.decorations.badges": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "explorer.decorations.colors": false,
-  "explorer.decorations.badges": false,
-  "git.ignoreMissingGitWarning": true,
-  "workbench.editor.pinnedTabSizing": "shrink",
-  "window.customMenuBarAltFocus": true,
-  "workbench.startupEditor": "none",
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.stickyTabStops": true,
-  "editor.tabSize": 2,
-  "git.enableSmartCommit": true,
-  "[dart]": {
-    "editor.formatOnSave": false,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.minimap.enabled": false,
-  "dart.debugExternalPackageLibraries": false,
-  "dart.debugSdkLibraries": false,
-  "editor.unicodeHighlight.allowedCharacters": {
-    
+  "editor.cursorBlinking": "expand",
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.autofetch": true,
+  "cSpell.userWords": ["AYADI", "Pingucoder"],
+  "terminal.integrated.fontFamily": "\"JetBrainsMono Nerd Font\"",
+  "terminal.integrated.fontLigatures.fallbackLigatures": [
+    "<--",
+    "<---",
+    "<<-",
+    "<-",
+    "->",
+    "->>",
+    "-->",
+    "--->",
+    "<==",
+    "<===",
+    "<<=",
+    "<=",
+    "=>",
+    "=>>",
+    "==>",
+    "===>",
+    ">=",
+    ">>=",
+    "<->",
+    "<-->",
+    "<--->",
+    "<---->",
+    "<=>",
+    "<==>",
+    "<===>",
+    "<====>",
+    "::",
+    ":::",
+    "<~~",
+    "</",
+    "</>",
+    "/>",
+    "~~>",
+    "==",
+    "!=",
+    "/=",
+    "~=",
+    "<>",
+    "===",
+    "!==",
+    "!===",
+    "<:",
+    ":=",
+    "*=",
+    "*+",
+    "<*",
+    "<*>",
+    "*>",
+    "<|",
+    "<|>",
+    "|>",
+    "+*",
+    "=*",
+    "=: ",
+    ":>",
+    "/*",
+    "*/",
+    "+++",
+    "<!--",
+    "<!---"
+  ],
+  "editor.fontSize": 18,
+  "errorLens.gutterIconSize": "150%",
+  "window.zoomLevel": 1,
+  "terminal.integrated.fontSize": 18,
+  "workbench.editorAssociations": {
+    "*.pdf": "pdf.view"
   },
-  "files.autoSave": "afterDelay",
-  "explorer.compactFolders": false,
-  "dart.previewFlutterUiGuides": true,
-  "dart.showInspectorNotificationsForWidgetErrors": false,
-  "dart.flutterHotReloadOnSave": "always",
-  "workbench.colorTheme": "Ayu Mirage",
-  "window.menuBarVisibility": "compact",
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
-  "editor.scrollbar.verticalScrollbarSize": 19,
-  "editor.scrollbar.horizontalScrollbarSize": 19,
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "editor.detectIndentation": false,
-  "explorer.copyRelativePathSeparator": "/"
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "files.autoSave": "afterDelay"
 }
+
